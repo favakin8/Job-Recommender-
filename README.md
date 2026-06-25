@@ -10,7 +10,6 @@ License: CC0: Public Domain, (https://creativecommons.org/publicdomain/zero/1.0/
 So what's it about?:
 "Feeling stuck on your career path? This tool takes a short questionnaire about your skills, preferred field, and qualifications, then recommends the most suitable jobs from a dataset of thousands of listings — ranked by relevance and salary."
 
-
 - The user answers a short questionnaire (field, skills, qualifications, minimum salary)
 - Their responses are cleaned, lemmatized, and expanded using a synonym dictionary
 - A TF-IDF vectorizer converts job listings and the user profile into numerical vectors
@@ -48,15 +47,24 @@ bashpython job-recommender.py
 *Take the questionnaire to find a career just for you!*
 
 **Do you have a preferred field (e.g. medicine, social media, etc.)?**
+
 data
+
 **Please write 3–8 skills or interests:** 
+
 python machine learning statistics
+
 **Do you have any qualifications?:** 
+
 BSc
+
 **Write the lowest annual salary you are willing to accept:**
+
 50000
 
+
 **Your ideal jobs are:**
+
 1. Data Analyst
    Minimum Salary: $55,000
    Maximum Salary: $85,000
@@ -76,11 +84,12 @@ Caching:
 
 On the first run, the program processes the full dataset and saves a cache file (jobs_cache.pkl). All future runs load from this cache, making them significantly faster!
 
-🔮 Future Improvements:
+Future Improvements:
  -Maybe building a web interface using Streamlit or Gradio
  -Adding location-based filtering
  -Allowing users to upload their own CV for auto-profiling
 
 Thanks! 
+
 -Fav
 
