@@ -2,6 +2,10 @@
 
 A command-line career recommendation tool that matches users to jobs based on their skills, qualifications, and salary expectations using Natural Language Processing (NLP) and machine learning.
 
+IMPORTANT NOTES:
+You will have to download the data source: [(https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)]
+License: CC0: Public Domain, (https://creativecommons.org/publicdomain/zero/1.0/)
+
 
 So what's it about?:
 "Feeling stuck on your career path? This tool takes a short questionnaire about your skills, preferred field, and qualifications, then recommends the most suitable jobs from a dataset of thousands of listings — ranked by relevance and salary."
@@ -33,8 +37,6 @@ bashpip install -r requirements.txt
 3. Add the Dataset
 Download the job descriptions dataset and place it in the project folder as:
 'job_descriptions.csv'
-
-Dataset source: [(https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)]
 
 4. Run the Program
 bashpython job-recommender.py
@@ -82,12 +84,3 @@ On the first run, the program processes the full dataset and saves a cache file 
 Thanks! 
 -Fav
 
-
-
-
-
-
- Build a web interface using Streamlit or Gradio
- Add location-based filtering
- Include more synonym mappings for niche fields
- Allow users to upload their own CV for auto-profiling
