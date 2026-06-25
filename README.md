@@ -85,9 +85,10 @@ Caching:
 On the first run, the program processes the full dataset and saves a cache file (jobs_cache.pkl). All future runs load from this cache, making them significantly faster!
 
 Future Improvements:
- -Maybe building a web interface using Streamlit or Gradio
- -Adding location-based filtering
- -Allowing users to upload their own CV for auto-profiling
+ - Maybe building a web interface using Streamlit or Gradio
+ - Adding location-based filtering
+ - Allowing users to upload their own CV for auto-profiling
+ 
 
 Thanks! 
 
